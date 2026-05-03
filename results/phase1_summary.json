@@ -1,0 +1,102 @@
+{
+  "baseline": {
+    "config": "baseline",
+    "desc": "CE only",
+    "n_trainable": 2293760,
+    "sigma": 91.5146255493164,
+    "train_time_s": 122.4,
+    "pre": {
+      "entropy": 1.6653,
+      "margin": 2.79,
+      "top5_mass": 0.8382,
+      "max_prob": 0.6468,
+      "str_mean": 0.3132,
+      "n_samples": 30
+    },
+    "post": {
+      "entropy": 0.8995,
+      "margin": 3.57,
+      "top5_mass": 0.9305,
+      "max_prob": 0.7835,
+      "str_mean": 0.3009,
+      "n_samples": 30
+    },
+    "delta_entropy": -0.7658,
+    "delta_margin": 0.78
+  },
+  "S": {
+    "config": "S",
+    "desc": "STR+ only",
+    "n_trainable": 2293760,
+    "sigma": 91.5146255493164,
+    "train_time_s": 124.2,
+    "pre": {
+      "entropy": 1.6653,
+      "margin": 2.79,
+      "top5_mass": 0.8382,
+      "max_prob": 0.6468,
+      "str_mean": 0.3132,
+      "n_samples": 30
+    },
+    "post": {
+      "entropy": 0.8724,
+      "margin": 3.59,
+      "top5_mass": 0.9325,
+      "max_prob": 0.7929,
+      "str_mean": 0.3108,
+      "n_samples": 30
+    },
+    "delta_entropy": -0.7929,
+    "delta_margin": 0.8
+  },
+  "L": {
+    "config": "L",
+    "desc": "Latent only",
+    "n_trainable": 2318336,
+    "sigma": 91.5146255493164,
+    "train_time_s": 135.1,
+    "pre": {
+      "entropy": 1.8224,
+      "margin": 2.54,
+      "top5_mass": 0.8233,
+      "max_prob": 0.6295,
+      "str_mean": 0.2967,
+      "n_samples": 30
+    },
+    "post": {
+      "entropy": 0.8568,
+      "margin": 3.57,
+      "top5_mass": 0.9342,
+      "max_prob": 0.7962,
+      "str_mean": 0.2995,
+      "n_samples": 30
+    },
+    "delta_entropy": -0.9656,
+    "delta_margin": 1.03
+  },
+  "SL": {
+    "config": "SL",
+    "desc": "STR+ + Latent",
+    "n_trainable": 2318336,
+    "sigma": 91.5146255493164,
+    "train_time_s": 136.6,
+    "pre": {
+      "entropy": 1.8266,
+      "margin": 2.54,
+      "top5_mass": 0.8228,
+      "max_prob": 0.6292,
+      "str_mean": 0.2975,
+      "n_samples": 30
+    },
+    "post": {
+      "entropy": 0.8878,
+      "margin": 3.64,
+      "top5_mass": 0.9303,
+      "max_prob": 0.7876,
+      "str_mean": 0.3122,
+      "n_samples": 30
+    },
+    "delta_entropy": -0.9388,
+    "delta_margin": 1.1
+  }
+}

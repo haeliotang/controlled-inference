@@ -1,0 +1,47 @@
+{
+  "protocols": {
+    "static": {
+      "mean_str": 0.631607,
+      "var_str": 0.005237,
+      "mean_entropy": 0.491948,
+      "var_entropy": 0.442599,
+      "n_prompts": 20,
+      "n_str_samples": 1000
+    },
+    "piecewise": {
+      "mean_str": 0.626985,
+      "var_str": 0.004613,
+      "mean_entropy": 0.564054,
+      "var_entropy": 0.545861,
+      "n_prompts": 20,
+      "n_str_samples": 1000
+    },
+    "feedback": {
+      "mean_str": 0.631913,
+      "var_str": 0.005073,
+      "mean_entropy": 0.475679,
+      "var_entropy": 0.51176,
+      "n_prompts": 20,
+      "n_str_samples": 1000
+    },
+    "phase_feedback": {
+      "mean_str": 0.630696,
+      "var_str": 0.00548,
+      "mean_entropy": 0.487938,
+      "var_entropy": 0.459957,
+      "n_prompts": 20,
+      "n_str_samples": 1000
+    },
+    "gated_feedback": {
+      "mean_str": 0.637043,
+      "var_str": 0.004825,
+      "mean_entropy": 0.510435,
+      "var_entropy": 0.478133,
+      "n_prompts": 20,
+      "n_str_samples": 1000
+    }
+  },
+  "target_str": 0.6336,
+  "oracle_var": 0.005128,
+  "unconstrained_var": 0.003937
+}

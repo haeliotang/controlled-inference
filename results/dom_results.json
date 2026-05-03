@@ -1,0 +1,111 @@
+{
+  "config": {
+    "gamma": 0.05,
+    "kappa": 10.0,
+    "beta": 2.0,
+    "tau": 0.63,
+    "lambda_S": 0.15,
+    "lambda_L": -0.05,
+    "window_k": 4,
+    "sigma": 88.9458236694336
+  },
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "baseline": {
+        "text": "Question: A train travels 60 miles per hour for 2 hours, then 40 miles per hour for 3 hours. What is the total distance?\nAnswer: Let me think step by step. 60 miles per hour for 2 hours, then 40 miles per hour for 3 hours. What is the total distance? 60 miles per hour for 2 hours, then 40 miles per hour for 3 hours. What is the total distance? 60 miles per hour for",
+        "str_stats": {
+          "mean": 0.7301,
+          "var": 0.001908,
+          "max": 0.8054,
+          "min": 0.6496
+        },
+        "entropy_mean": 0.7644,
+        "n_tokens": 60
+      },
+      "dom": {
+        "text": "Question: A train travels 60 miles per hour for 2 hours, then 40 miles per hour for 3 hours. What is the total distance?\nAnswer: Let me think step by step. 60 miles per hour for 2 hours means that the train travels 60 miles in 2 hours. So, the train travels 120 miles in 4 hours. Now, the train travels 40 miles per hour for 3 hours. So, the train travels 40 miles in ",
+        "str_stats": {
+          "mean": 0.7035,
+          "var": 0.002528,
+          "max": 0.8036,
+          "min": 0.6137
+        },
+        "alpha_stats": {
+          "mean": 0.6619,
+          "var": 0.014642,
+          "max": 0.8529,
+          "min": 0.4273
+        },
+        "entropy_mean": 1.405,
+        "n_tokens": 60
+      }
+    },
+    {
+      "prompt_id": 1,
+      "baseline": {
+        "text": "Question: If a store offers a 20% discount on a $150 item, and then charges 8% tax on the discounted price, what is the final price?\nAnswer: Let me work through this carefully. The store offers a 20% discount on a $150 item. So the price is $120. The store then charges 8% tax on the discounted price, which is $120. So the tax is $9.60. The final price is $120 + $9.60 =",
+        "str_stats": {
+          "mean": 0.664,
+          "var": 0.002377,
+          "max": 0.7662,
+          "min": 0.5731
+        },
+        "entropy_mean": 1.1831,
+        "n_tokens": 60
+      },
+      "dom": {
+        "text": "Question: If a store offers a 20% discount on a $150 item, and then charges 8% tax on the discounted price, what is the final price?\nAnswer: Let me work through this carefully. The store offers a discount of 20% on the price of the item, which means that the price of the item is reduced by 20%. So the price of the item is now $120. The store then charges 8% tax on the discounted price of $120, which means that",
+        "str_stats": {
+          "mean": 0.6848,
+          "var": 0.003663,
+          "max": 0.8115,
+          "min": 0.5631
+        },
+        "alpha_stats": {
+          "mean": 0.6208,
+          "var": 0.020087,
+          "max": 0.8769,
+          "min": 0.3277
+        },
+        "entropy_mean": 1.3165,
+        "n_tokens": 60
+      }
+    },
+    {
+      "prompt_id": 2,
+      "baseline": {
+        "text": "Question: Sarah has 3 times as many apples as Tom. Together they have 48 apples. How many does each person have?\nAnswer: I'll solve this step by step. Sarah has 3 times as many apples as Tom. So, Sarah has 3T apples and Tom has T apples. Together they have 48 apples. So, 3T + T = 48. Solve for T. T = 16. So, Sarah has 3(16",
+        "str_stats": {
+          "mean": 0.6915,
+          "var": 0.002075,
+          "max": 0.8061,
+          "min": 0.6019
+        },
+        "entropy_mean": 1.0502,
+        "n_tokens": 60
+      },
+      "dom": {
+        "text": "Question: Sarah has 3 times as many apples as Tom. Together they have 48 apples. How many does each person have?\nAnswer: I'll solve this step by step. Sarah has 3 times as many apples as Tom. Let's call Sarah's apples x and Tom's apples y. Together they have 48 apples. So we can write the equation x + y = 48. Now we know that Sarah has 3 times as many apples as Tom. So",
+        "str_stats": {
+          "mean": 0.6962,
+          "var": 0.001931,
+          "max": 0.8061,
+          "min": 0.6201
+        },
+        "alpha_stats": {
+          "mean": 0.6491,
+          "var": 0.011291,
+          "max": 0.8645,
+          "min": 0.4529
+        },
+        "entropy_mean": 1.2352,
+        "n_tokens": 60
+      }
+    }
+  ],
+  "summary": {
+    "avg_base_str_var": 0.00212,
+    "avg_dom_str_var": 0.002707
+  }
+}

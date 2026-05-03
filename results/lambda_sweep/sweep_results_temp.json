@@ -1,0 +1,65 @@
+{
+  "-0.2": {
+    "entropy": 0.8446,
+    "margin": 3.8618,
+    "str": 0.285,
+    "coherence": 0.5314,
+    "unique_ratio": 0.88
+  },
+  "-0.1": {
+    "entropy": 0.8807,
+    "margin": 3.6763,
+    "str": 0.2925,
+    "coherence": 0.5535,
+    "unique_ratio": 0.88
+  },
+  "-0.05": {
+    "entropy": 0.8412,
+    "margin": 4.002,
+    "str": 0.2956,
+    "coherence": 0.5613,
+    "unique_ratio": 0.89
+  },
+  "-0.02": {
+    "entropy": 0.8742,
+    "margin": 3.6644,
+    "str": 0.2979,
+    "coherence": 0.5717,
+    "unique_ratio": 0.87
+  },
+  "0.0": {
+    "entropy": 0.8961,
+    "margin": 3.569,
+    "str": 0.302,
+    "coherence": 0.5795,
+    "unique_ratio": 0.94
+  },
+  "0.02": {
+    "entropy": 0.8707,
+    "margin": 3.704,
+    "str": 0.3041,
+    "coherence": 0.5949,
+    "unique_ratio": 0.95
+  },
+  "0.05": {
+    "entropy": 0.9038,
+    "margin": 3.3774,
+    "str": 0.3119,
+    "coherence": 0.6095,
+    "unique_ratio": 0.91
+  },
+  "0.1": {
+    "entropy": 0.8951,
+    "margin": 3.475,
+    "str": 0.3113,
+    "coherence": 0.6156,
+    "unique_ratio": 0.95
+  },
+  "0.2": {
+    "entropy": 0.8653,
+    "margin": 3.4859,
+    "str": 0.3223,
+    "coherence": 0.6451,
+    "unique_ratio": 0.91
+  }
+}

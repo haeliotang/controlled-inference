@@ -1,0 +1,211 @@
+{
+  "experiment": "KV-Cache Ablation (Exp-KV-Minimal)",
+  "model": "Llama-3.2-3B",
+  "config": {
+    "gamma": 0.05,
+    "kappa": 10.0,
+    "beta": 2.0,
+    "tau": 0.63,
+    "sigma": 88.9458236694336,
+    "window_k": 4
+  },
+  "conditions": {
+    "base_kv_off": "Baseline, use_cache=False",
+    "base_kv_on": "Baseline, use_cache=True",
+    "dom_kv_off": "DOM control, use_cache=False",
+    "dom_kv_on": "DOM control, use_cache=True"
+  },
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "base_kv_off": {
+        "str_stats": {
+          "mean": 0.7301,
+          "var": 0.001908,
+          "max": 0.8054,
+          "min": 0.6496
+        },
+        "entropy_mean": 0.7644,
+        "n_tokens": 60,
+        "text_preview": "Question: A train travels 60 miles per hour for 2 hours, then 40 miles per hour for 3 hours. What is the total distance?\nAnswer: Let me think step by step. 60 miles per hour for 2 hours, then 40 miles"
+      },
+      "base_kv_on": {
+        "str_stats": {
+          "mean": 0.7302,
+          "var": 0.001907,
+          "max": 0.8054,
+          "min": 0.6497
+        },
+        "entropy_mean": 0.7644,
+        "n_tokens": 60,
+        "text_preview": "Question: A train travels 60 miles per hour for 2 hours, then 40 miles per hour for 3 hours. What is the total distance?\nAnswer: Let me think step by step. 60 miles per hour for 2 hours, then 40 miles"
+      },
+      "dom_kv_off": {
+        "str_stats": {
+          "mean": 0.7035,
+          "var": 0.002528,
+          "max": 0.8036,
+          "min": 0.6137
+        },
+        "entropy_mean": 1.405,
+        "n_tokens": 60,
+        "text_preview": "Question: A train travels 60 miles per hour for 2 hours, then 40 miles per hour for 3 hours. What is the total distance?\nAnswer: Let me think step by step. 60 miles per hour for 2 hours means that the",
+        "alpha_stats": {
+          "mean": 0.6619,
+          "var": 0.014642,
+          "max": 0.8529,
+          "min": 0.4273
+        }
+      },
+      "dom_kv_on": {
+        "str_stats": {
+          "mean": 0.7035,
+          "var": 0.002528,
+          "max": 0.8035,
+          "min": 0.6138
+        },
+        "entropy_mean": 1.4056,
+        "n_tokens": 60,
+        "text_preview": "Question: A train travels 60 miles per hour for 2 hours, then 40 miles per hour for 3 hours. What is the total distance?\nAnswer: Let me think step by step. 60 miles per hour for 2 hours means that the",
+        "alpha_stats": {
+          "mean": 0.6618,
+          "var": 0.014644,
+          "max": 0.8529,
+          "min": 0.4276
+        }
+      }
+    },
+    {
+      "prompt_id": 1,
+      "base_kv_off": {
+        "str_stats": {
+          "mean": 0.664,
+          "var": 0.002377,
+          "max": 0.7662,
+          "min": 0.5731
+        },
+        "entropy_mean": 1.1831,
+        "n_tokens": 60,
+        "text_preview": "Question: If a store offers a 20% discount on a $150 item, and then charges 8% tax on the discounted price, what is the final price?\nAnswer: Let me work through this carefully. The store offers a 20% "
+      },
+      "base_kv_on": {
+        "str_stats": {
+          "mean": 0.6641,
+          "var": 0.002376,
+          "max": 0.7662,
+          "min": 0.5731
+        },
+        "entropy_mean": 1.1835,
+        "n_tokens": 60,
+        "text_preview": "Question: If a store offers a 20% discount on a $150 item, and then charges 8% tax on the discounted price, what is the final price?\nAnswer: Let me work through this carefully. The store offers a 20% "
+      },
+      "dom_kv_off": {
+        "str_stats": {
+          "mean": 0.6848,
+          "var": 0.003663,
+          "max": 0.8115,
+          "min": 0.5631
+        },
+        "entropy_mean": 1.3165,
+        "n_tokens": 60,
+        "text_preview": "Question: If a store offers a 20% discount on a $150 item, and then charges 8% tax on the discounted price, what is the final price?\nAnswer: Let me work through this carefully. The store offers a disc",
+        "alpha_stats": {
+          "mean": 0.6208,
+          "var": 0.020087,
+          "max": 0.8769,
+          "min": 0.3277
+        }
+      },
+      "dom_kv_on": {
+        "str_stats": {
+          "mean": 0.6848,
+          "var": 0.003661,
+          "max": 0.8115,
+          "min": 0.5632
+        },
+        "entropy_mean": 1.3172,
+        "n_tokens": 60,
+        "text_preview": "Question: If a store offers a 20% discount on a $150 item, and then charges 8% tax on the discounted price, what is the final price?\nAnswer: Let me work through this carefully. The store offers a disc",
+        "alpha_stats": {
+          "mean": 0.6209,
+          "var": 0.020076,
+          "max": 0.8769,
+          "min": 0.3279
+        }
+      }
+    },
+    {
+      "prompt_id": 2,
+      "base_kv_off": {
+        "str_stats": {
+          "mean": 0.6915,
+          "var": 0.002075,
+          "max": 0.8061,
+          "min": 0.6019
+        },
+        "entropy_mean": 1.0502,
+        "n_tokens": 60,
+        "text_preview": "Question: Sarah has 3 times as many apples as Tom. Together they have 48 apples. How many does each person have?\nAnswer: I'll solve this step by step. Sarah has 3 times as many apples as Tom. So, Sara"
+      },
+      "base_kv_on": {
+        "str_stats": {
+          "mean": 0.6915,
+          "var": 0.002077,
+          "max": 0.8062,
+          "min": 0.6018
+        },
+        "entropy_mean": 1.0496,
+        "n_tokens": 60,
+        "text_preview": "Question: Sarah has 3 times as many apples as Tom. Together they have 48 apples. How many does each person have?\nAnswer: I'll solve this step by step. Sarah has 3 times as many apples as Tom. So, Sara"
+      },
+      "dom_kv_off": {
+        "str_stats": {
+          "mean": 0.6962,
+          "var": 0.001931,
+          "max": 0.8061,
+          "min": 0.6201
+        },
+        "entropy_mean": 1.2352,
+        "n_tokens": 60,
+        "text_preview": "Question: Sarah has 3 times as many apples as Tom. Together they have 48 apples. How many does each person have?\nAnswer: I'll solve this step by step. Sarah has 3 times as many apples as Tom. Let's ca",
+        "alpha_stats": {
+          "mean": 0.6491,
+          "var": 0.011291,
+          "max": 0.8645,
+          "min": 0.4529
+        }
+      },
+      "dom_kv_on": {
+        "str_stats": {
+          "mean": 0.6962,
+          "var": 0.001932,
+          "max": 0.8062,
+          "min": 0.6201
+        },
+        "entropy_mean": 1.2355,
+        "n_tokens": 60,
+        "text_preview": "Question: Sarah has 3 times as many apples as Tom. Together they have 48 apples. How many does each person have?\nAnswer: I'll solve this step by step. Sarah has 3 times as many apples as Tom. Let's ca",
+        "alpha_stats": {
+          "mean": 0.6491,
+          "var": 0.01129,
+          "max": 0.8646,
+          "min": 0.453
+        }
+      }
+    }
+  ],
+  "summary": {
+    "avg_str_var": {
+      "base_kv_off": 0.00212,
+      "base_kv_on": 0.00212,
+      "dom_kv_off": 0.002707,
+      "dom_kv_on": 0.002707
+    },
+    "dom_effectiveness_pct": {
+      "kv_off": -27.7,
+      "kv_on": -27.7
+    },
+    "kv_impact_relative_diff": 0.0001,
+    "conclusion": "KV_NEUTRAL"
+  }
+}

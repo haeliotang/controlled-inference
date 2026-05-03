@@ -1,0 +1,74 @@
+{
+  "-0.2": {
+    "mean_str": 0.614999,
+    "var_str": 0.00416,
+    "mean_entropy": 0.402943,
+    "var_entropy": 0.433158,
+    "n_prompts": 20,
+    "n_str_samples": 1000
+  },
+  "-0.1": {
+    "mean_str": 0.612177,
+    "var_str": 0.003937,
+    "mean_entropy": 0.396177,
+    "var_entropy": 0.377921,
+    "n_prompts": 20,
+    "n_str_samples": 1000
+  },
+  "-0.05": {
+    "mean_str": 0.602144,
+    "var_str": 0.004857,
+    "mean_entropy": 0.495354,
+    "var_entropy": 0.456315,
+    "n_prompts": 20,
+    "n_str_samples": 1000
+  },
+  "-0.02": {
+    "mean_str": 0.639165,
+    "var_str": 0.005275,
+    "mean_entropy": 0.371075,
+    "var_entropy": 0.330432,
+    "n_prompts": 20,
+    "n_str_samples": 1000
+  },
+  "0.0": {
+    "mean_str": 0.633575,
+    "var_str": 0.005128,
+    "mean_entropy": 0.499228,
+    "var_entropy": 0.489386,
+    "n_prompts": 20,
+    "n_str_samples": 1000
+  },
+  "0.02": {
+    "mean_str": 0.648872,
+    "var_str": 0.007052,
+    "mean_entropy": 0.520948,
+    "var_entropy": 0.515387,
+    "n_prompts": 20,
+    "n_str_samples": 1000
+  },
+  "0.05": {
+    "mean_str": 0.6642,
+    "var_str": 0.005034,
+    "mean_entropy": 0.39021,
+    "var_entropy": 0.389404,
+    "n_prompts": 20,
+    "n_str_samples": 1000
+  },
+  "0.1": {
+    "mean_str": 0.677971,
+    "var_str": 0.005564,
+    "mean_entropy": 0.400938,
+    "var_entropy": 0.344645,
+    "n_prompts": 20,
+    "n_str_samples": 1000
+  },
+  "0.2": {
+    "mean_str": 0.707729,
+    "var_str": 0.007584,
+    "mean_entropy": 0.44021,
+    "var_entropy": 0.406693,
+    "n_prompts": 20,
+    "n_str_samples": 1000
+  }
+}

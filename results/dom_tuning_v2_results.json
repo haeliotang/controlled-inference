@@ -1,0 +1,709 @@
+{
+  "tau_auto": 0.6853,
+  "sigma": 88.9458236694336,
+  "sampling_baseline": {
+    "avg_str_var": 0.002365,
+    "avg_str_mean": 0.6853,
+    "avg_kl": 0.0,
+    "prompts": [
+      {
+        "str_stats": {
+          "mean": 0.7046,
+          "var": 0.002038,
+          "max": 0.8157,
+          "min": 0.6044
+        },
+        "kl_stats": {
+          "mean": 0,
+          "var": 0
+        },
+        "alpha_stats": {
+          "mean": 0.5,
+          "var": 0.0,
+          "max": 0.5,
+          "min": 0.5
+        },
+        "entropy_mean": 1.0783
+      },
+      {
+        "str_stats": {
+          "mean": 0.6714,
+          "var": 0.003104,
+          "max": 0.7703,
+          "min": 0.549
+        },
+        "kl_stats": {
+          "mean": 0,
+          "var": 0
+        },
+        "alpha_stats": {
+          "mean": 0.5,
+          "var": 0.0,
+          "max": 0.5,
+          "min": 0.5
+        },
+        "entropy_mean": 1.3622
+      },
+      {
+        "str_stats": {
+          "mean": 0.6798,
+          "var": 0.001952,
+          "max": 0.8061,
+          "min": 0.5688
+        },
+        "kl_stats": {
+          "mean": 0,
+          "var": 0
+        },
+        "alpha_stats": {
+          "mean": 0.5,
+          "var": 0.0,
+          "max": 0.5,
+          "min": 0.5
+        },
+        "entropy_mean": 1.0896
+      }
+    ]
+  },
+  "greedy_dom": {
+    "avg_str_var": 0.002707,
+    "avg_str_mean": 0.6948,
+    "avg_kl": 0.0629,
+    "prompts": [
+      {
+        "str_stats": {
+          "mean": 0.7035,
+          "var": 0.002528,
+          "max": 0.8036,
+          "min": 0.6137
+        },
+        "kl_stats": {
+          "mean": 0.0672,
+          "var": 0.004837,
+          "max": 0.2489,
+          "min": 0.0002
+        },
+        "alpha_stats": {
+          "mean": 0.5409,
+          "var": 0.017721,
+          "max": 0.7693,
+          "min": 0.3003
+        },
+        "entropy_mean": 1.405
+      },
+      {
+        "str_stats": {
+          "mean": 0.6848,
+          "var": 0.003663,
+          "max": 0.8115,
+          "min": 0.5631
+        },
+        "kl_stats": {
+          "mean": 0.0655,
+          "var": 0.008552,
+          "max": 0.5468,
+          "min": 0.0
+        },
+        "alpha_stats": {
+          "mean": 0.4988,
+          "var": 0.022218,
+          "max": 0.8038,
+          "min": 0.219
+        },
+        "entropy_mean": 1.3165
+      },
+      {
+        "str_stats": {
+          "mean": 0.6962,
+          "var": 0.001931,
+          "max": 0.8061,
+          "min": 0.6201
+        },
+        "kl_stats": {
+          "mean": 0.0561,
+          "var": 0.004978,
+          "max": 0.2623,
+          "min": 0.0001
+        },
+        "alpha_stats": {
+          "mean": 0.5246,
+          "var": 0.013787,
+          "max": 0.7858,
+          "min": 0.3225
+        },
+        "entropy_mean": 1.2352
+      }
+    ]
+  },
+  "round1_standard_pd": {
+    "best_gamma": "0.02",
+    "sweep": {
+      "0.005": {
+        "avg_str_var": 0.002117,
+        "avg_str_mean": 0.6792,
+        "avg_kl": 0.0779,
+        "prompts": [
+          {
+            "str_stats": {
+              "mean": 0.709,
+              "var": 0.001847,
+              "max": 0.7976,
+              "min": 0.602
+            },
+            "kl_stats": {
+              "mean": 0.0872,
+              "var": 0.009142,
+              "max": 0.4019,
+              "min": 0.0003
+            },
+            "alpha_stats": {
+              "mean": 0.5561,
+              "var": 0.012163,
+              "max": 0.7691,
+              "min": 0.2692
+            },
+            "entropy_mean": 1.4804
+          },
+          {
+            "str_stats": {
+              "mean": 0.6597,
+              "var": 0.00182,
+              "max": 0.7387,
+              "min": 0.5559
+            },
+            "kl_stats": {
+              "mean": 0.0766,
+              "var": 0.009674,
+              "max": 0.5545,
+              "min": 0.0002
+            },
+            "alpha_stats": {
+              "mean": 0.4411,
+              "var": 0.011885,
+              "max": 0.6436,
+              "min": 0.1952
+            },
+            "entropy_mean": 1.4767
+          },
+          {
+            "str_stats": {
+              "mean": 0.669,
+              "var": 0.002683,
+              "max": 0.7662,
+              "min": 0.5328
+            },
+            "kl_stats": {
+              "mean": 0.0698,
+              "var": 0.006701,
+              "max": 0.3709,
+              "min": 0.0005
+            },
+            "alpha_stats": {
+              "mean": 0.4626,
+              "var": 0.017291,
+              "max": 0.7274,
+              "min": 0.1585
+            },
+            "entropy_mean": 1.4261
+          }
+        ]
+      },
+      "0.01": {
+        "avg_str_var": 0.002397,
+        "avg_str_mean": 0.6874,
+        "avg_kl": 0.0706,
+        "prompts": [
+          {
+            "str_stats": {
+              "mean": 0.7057,
+              "var": 0.001879,
+              "max": 0.7871,
+              "min": 0.616
+            },
+            "kl_stats": {
+              "mean": 0.065,
+              "var": 0.005539,
+              "max": 0.2942,
+              "min": 0.0001
+            },
+            "alpha_stats": {
+              "mean": 0.5462,
+              "var": 0.014061,
+              "max": 0.7847,
+              "min": 0.2907
+            },
+            "entropy_mean": 1.2614
+          },
+          {
+            "str_stats": {
+              "mean": 0.679,
+              "var": 0.002876,
+              "max": 0.8165,
+              "min": 0.5663
+            },
+            "kl_stats": {
+              "mean": 0.0746,
+              "var": 0.007488,
+              "max": 0.6179,
+              "min": 0.0008
+            },
+            "alpha_stats": {
+              "mean": 0.4848,
+              "var": 0.018282,
+              "max": 0.8041,
+              "min": 0.1933
+            },
+            "entropy_mean": 1.9975
+          },
+          {
+            "str_stats": {
+              "mean": 0.6775,
+              "var": 0.002436,
+              "max": 0.8069,
+              "min": 0.5422
+            },
+            "kl_stats": {
+              "mean": 0.0723,
+              "var": 0.009325,
+              "max": 0.4085,
+              "min": 0.0
+            },
+            "alpha_stats": {
+              "mean": 0.4811,
+              "var": 0.01538,
+              "max": 0.7801,
+              "min": 0.1863
+            },
+            "entropy_mean": 1.2444
+          }
+        ]
+      },
+      "0.02": {
+        "avg_str_var": 0.002078,
+        "avg_str_mean": 0.6957,
+        "avg_kl": 0.0598,
+        "prompts": [
+          {
+            "str_stats": {
+              "mean": 0.7149,
+              "var": 0.00219,
+              "max": 0.8032,
+              "min": 0.6306
+            },
+            "kl_stats": {
+              "mean": 0.0618,
+              "var": 0.005844,
+              "max": 0.3479,
+              "min": 0.0001
+            },
+            "alpha_stats": {
+              "mean": 0.5673,
+              "var": 0.015637,
+              "max": 0.8136,
+              "min": 0.3461
+            },
+            "entropy_mean": 1.177
+          },
+          {
+            "str_stats": {
+              "mean": 0.6607,
+              "var": 0.001948,
+              "max": 0.7576,
+              "min": 0.5501
+            },
+            "kl_stats": {
+              "mean": 0.04,
+              "var": 0.003981,
+              "max": 0.3481,
+              "min": 0.0003
+            },
+            "alpha_stats": {
+              "mean": 0.443,
+              "var": 0.012617,
+              "max": 0.7033,
+              "min": 0.2005
+            },
+            "entropy_mean": 1.4039
+          },
+          {
+            "str_stats": {
+              "mean": 0.7116,
+              "var": 0.002097,
+              "max": 0.8061,
+              "min": 0.6301
+            },
+            "kl_stats": {
+              "mean": 0.0777,
+              "var": 0.00958,
+              "max": 0.4538,
+              "min": 0.0
+            },
+            "alpha_stats": {
+              "mean": 0.561,
+              "var": 0.014007,
+              "max": 0.7872,
+              "min": 0.3477
+            },
+            "entropy_mean": 1.2911
+          }
+        ]
+      },
+      "0.05": {
+        "avg_str_var": 0.008305,
+        "avg_str_mean": 0.741,
+        "avg_kl": 0.0952,
+        "prompts": [
+          {
+            "str_stats": {
+              "mean": 0.7021,
+              "var": 0.002709,
+              "max": 0.8086,
+              "min": 0.5984
+            },
+            "kl_stats": {
+              "mean": 0.0869,
+              "var": 0.007255,
+              "max": 0.2954,
+              "min": 0.0012
+            },
+            "alpha_stats": {
+              "mean": 0.5383,
+              "var": 0.017389,
+              "max": 0.8016,
+              "min": 0.27
+            },
+            "entropy_mean": 1.614
+          },
+          {
+            "str_stats": {
+              "mean": 0.6592,
+              "var": 0.002993,
+              "max": 0.7871,
+              "min": 0.5536
+            },
+            "kl_stats": {
+              "mean": 0.0647,
+              "var": 0.005783,
+              "max": 0.2992,
+              "min": 0.0002
+            },
+            "alpha_stats": {
+              "mean": 0.4411,
+              "var": 0.018404,
+              "max": 0.7502,
+              "min": 0.1991
+            },
+            "entropy_mean": 1.3839
+          },
+          {
+            "str_stats": {
+              "mean": 0.8616,
+              "var": 0.019212,
+              "max": 0.9988,
+              "min": 0.6301
+            },
+            "kl_stats": {
+              "mean": 0.134,
+              "var": 0.052463,
+              "max": 1.3675,
+              "min": 0.0012
+            },
+            "alpha_stats": {
+              "mean": 0.7721,
+              "var": 0.039353,
+              "max": 0.95,
+              "min": 0.3477
+            },
+            "entropy_mean": 0.7047
+          }
+        ]
+      }
+    }
+  },
+  "round2_damped": {
+    "lambda_d": 2.0,
+    "best_gamma": "0.02",
+    "sweep": {
+      "0.005": {
+        "avg_str_var": 0.007386,
+        "avg_str_mean": 0.7534,
+        "avg_kl": 0.0958,
+        "prompts": [
+          {
+            "str_stats": {
+              "mean": 0.7074,
+              "var": 0.002096,
+              "max": 0.8019,
+              "min": 0.6002
+            },
+            "kl_stats": {
+              "mean": 0.0751,
+              "var": 0.00634,
+              "max": 0.3021,
+              "min": 0.0004
+            },
+            "alpha_stats": {
+              "mean": 0.5324,
+              "var": 0.01547,
+              "max": 0.7625,
+              "min": 0.2447
+            },
+            "entropy_mean": 1.3523
+          },
+          {
+            "str_stats": {
+              "mean": 0.6678,
+              "var": 0.002667,
+              "max": 0.7811,
+              "min": 0.5573
+            },
+            "kl_stats": {
+              "mean": 0.0774,
+              "var": 0.010033,
+              "max": 0.5743,
+              "min": 0.0002
+            },
+            "alpha_stats": {
+              "mean": 0.4432,
+              "var": 0.017602,
+              "max": 0.7228,
+              "min": 0.1986
+            },
+            "entropy_mean": 1.5108
+          },
+          {
+            "str_stats": {
+              "mean": 0.885,
+              "var": 0.017395,
+              "max": 0.9988,
+              "min": 0.6301
+            },
+            "kl_stats": {
+              "mean": 0.135,
+              "var": 0.029529,
+              "max": 0.9328,
+              "min": 0.0013
+            },
+            "alpha_stats": {
+              "mean": 0.8007,
+              "var": 0.035924,
+              "max": 0.95,
+              "min": 0.3303
+            },
+            "entropy_mean": 0.6343
+          }
+        ]
+      },
+      "0.01": {
+        "avg_str_var": 0.002805,
+        "avg_str_mean": 0.6865,
+        "avg_kl": 0.0847,
+        "prompts": [
+          {
+            "str_stats": {
+              "mean": 0.7199,
+              "var": 0.002089,
+              "max": 0.835,
+              "min": 0.6248
+            },
+            "kl_stats": {
+              "mean": 0.0888,
+              "var": 0.010619,
+              "max": 0.4593,
+              "min": 0.0002
+            },
+            "alpha_stats": {
+              "mean": 0.5632,
+              "var": 0.015278,
+              "max": 0.8171,
+              "min": 0.2525
+            },
+            "entropy_mean": 1.6993
+          },
+          {
+            "str_stats": {
+              "mean": 0.6915,
+              "var": 0.002726,
+              "max": 0.7859,
+              "min": 0.5766
+            },
+            "kl_stats": {
+              "mean": 0.0733,
+              "var": 0.009414,
+              "max": 0.5468,
+              "min": 0.001
+            },
+            "alpha_stats": {
+              "mean": 0.4996,
+              "var": 0.018245,
+              "max": 0.7323,
+              "min": 0.2193
+            },
+            "entropy_mean": 1.4764
+          },
+          {
+            "str_stats": {
+              "mean": 0.648,
+              "var": 0.0036,
+              "max": 0.7941,
+              "min": 0.4891
+            },
+            "kl_stats": {
+              "mean": 0.0921,
+              "var": 0.031903,
+              "max": 1.0095,
+              "min": 0.0004
+            },
+            "alpha_stats": {
+              "mean": 0.4014,
+              "var": 0.019321,
+              "max": 0.7479,
+              "min": 0.1144
+            },
+            "entropy_mean": 1.3086
+          }
+        ]
+      },
+      "0.02": {
+        "avg_str_var": 0.002061,
+        "avg_str_mean": 0.6836,
+        "avg_kl": 0.078,
+        "prompts": [
+          {
+            "str_stats": {
+              "mean": 0.7062,
+              "var": 0.001876,
+              "max": 0.786,
+              "min": 0.6282
+            },
+            "kl_stats": {
+              "mean": 0.0641,
+              "var": 0.005301,
+              "max": 0.2876,
+              "min": 0.0002
+            },
+            "alpha_stats": {
+              "mean": 0.5305,
+              "var": 0.014838,
+              "max": 0.7324,
+              "min": 0.2936
+            },
+            "entropy_mean": 1.4294
+          },
+          {
+            "str_stats": {
+              "mean": 0.6599,
+              "var": 0.002136,
+              "max": 0.7614,
+              "min": 0.5672
+            },
+            "kl_stats": {
+              "mean": 0.0707,
+              "var": 0.009751,
+              "max": 0.4271,
+              "min": 0.0003
+            },
+            "alpha_stats": {
+              "mean": 0.4262,
+              "var": 0.01438,
+              "max": 0.6816,
+              "min": 0.2152
+            },
+            "entropy_mean": 1.3822
+          },
+          {
+            "str_stats": {
+              "mean": 0.6848,
+              "var": 0.002172,
+              "max": 0.781,
+              "min": 0.5765
+            },
+            "kl_stats": {
+              "mean": 0.0993,
+              "var": 0.016571,
+              "max": 0.6649,
+              "min": 0.0006
+            },
+            "alpha_stats": {
+              "mean": 0.4816,
+              "var": 0.015761,
+              "max": 0.7225,
+              "min": 0.1965
+            },
+            "entropy_mean": 1.4003
+          }
+        ]
+      },
+      "0.05": {
+        "avg_str_var": 0.002647,
+        "avg_str_mean": 0.6678,
+        "avg_kl": 0.0612,
+        "prompts": [
+          {
+            "str_stats": {
+              "mean": 0.6924,
+              "var": 0.003172,
+              "max": 0.8142,
+              "min": 0.5863
+            },
+            "kl_stats": {
+              "mean": 0.06,
+              "var": 0.004983,
+              "max": 0.3025,
+              "min": 0.0
+            },
+            "alpha_stats": {
+              "mean": 0.5038,
+              "var": 0.018867,
+              "max": 0.7839,
+              "min": 0.1894
+            },
+            "entropy_mean": 1.4426
+          },
+          {
+            "str_stats": {
+              "mean": 0.6468,
+              "var": 0.002262,
+              "max": 0.7719,
+              "min": 0.5587
+            },
+            "kl_stats": {
+              "mean": 0.0627,
+              "var": 0.007748,
+              "max": 0.3601,
+              "min": 0.0003
+            },
+            "alpha_stats": {
+              "mean": 0.397,
+              "var": 0.013839,
+              "max": 0.7039,
+              "min": 0.2014
+            },
+            "entropy_mean": 1.6132
+          },
+          {
+            "str_stats": {
+              "mean": 0.6641,
+              "var": 0.002506,
+              "max": 0.7724,
+              "min": 0.524
+            },
+            "kl_stats": {
+              "mean": 0.0609,
+              "var": 0.006093,
+              "max": 0.3571,
+              "min": 0.0
+            },
+            "alpha_stats": {
+              "mean": 0.4351,
+              "var": 0.01516,
+              "max": 0.7049,
+              "min": 0.1471
+            },
+            "entropy_mean": 1.1831
+          }
+        ]
+      }
+    }
+  }
+}

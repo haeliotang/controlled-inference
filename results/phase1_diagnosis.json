@@ -1,0 +1,48 @@
+{
+  "SL-weak": {
+    "config": "SL-weak",
+    "desc": "S+L, \u03bb=0.01",
+    "lambda": 0.01,
+    "include_latent_in_str": true,
+    "pre": {
+      "entropy": 1.8161,
+      "margin": 2.55,
+      "top5_mass": 0.824,
+      "max_prob": 0.6305,
+      "str_mean": 0.296,
+      "n_samples": 30
+    },
+    "post": {
+      "entropy": 0.8841,
+      "margin": 3.54,
+      "top5_mass": 0.9311,
+      "max_prob": 0.7895,
+      "str_mean": 0.3029,
+      "n_samples": 30
+    },
+    "delta_entropy": -0.932
+  },
+  "SL-indirect": {
+    "config": "SL-indirect",
+    "desc": "S+L, STR on real only",
+    "lambda": 0.1,
+    "include_latent_in_str": false,
+    "pre": {
+      "entropy": 1.8066,
+      "margin": 2.56,
+      "top5_mass": 0.8247,
+      "max_prob": 0.6317,
+      "str_mean": 0.297,
+      "n_samples": 30
+    },
+    "post": {
+      "entropy": 0.8868,
+      "margin": 3.38,
+      "top5_mass": 0.9318,
+      "max_prob": 0.7898,
+      "str_mean": 0.3148,
+      "n_samples": 30
+    },
+    "delta_entropy": -0.9198
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "entropy": 0.8995,
+    "margin": 3.57,
+    "n_samples": 30
+  },
+  "S": {
+    "entropy": 0.8724,
+    "margin": 3.59,
+    "n_samples": 30
+  },
+  "L": {
+    "entropy": 0.836,
+    "margin": 3.72,
+    "n_samples": 30
+  },
+  "SL": {
+    "entropy": 0.8584,
+    "margin": 3.85,
+    "n_samples": 30
+  }
+}
